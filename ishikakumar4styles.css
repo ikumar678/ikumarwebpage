@@ -1,0 +1,127 @@
+@charset "UTF-8";
+body {
+	margin: 50px;
+	font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:360;
+  font-style: normal;
+ 	background-color: #E5DED1;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A86717;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #D96725;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+h1, h2, h4 {
+	font-family: "IM Fell DW Pica SC", serif;
+  font-weight: 400;
+  font-style: normal;
+			color: saddlebrown;
+text-align:center;			
+}
+.scale{
+	padding-right: 0px;
+}
+
+h3 {
+    color: #D96725;
+    font-weight: 400;
+}
+
+img {
+	float: right;
+}
+
+#toneImage{
+	padding-left: 30px;
+}
+
+#typographyimage{
+	float: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+	
+
+a {
+	color: saddlebrown;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+a:hover {
+	color:black;
+	
+}
+
+
+footer {
+	color:black;
+}
+		
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button a {
+	background-color:#879675;
+	color: #A86717;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+
+}
+
+.button a:hover {
+	background-color:#879675;
+	color: #D96725;
+}
+.center {
+	display: flex;
+	judtify-content: center;
+	align-items: center;
+}
+.right-align {
+	float:right;
+	margin-left:20px;
+	
+}
+center-text {
+	text-align: center;
+	margin-right: 20px;
+	
+}.scale {
+}
+.Licensing {
+    color: saddlebrown;
+}
